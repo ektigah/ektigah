@@ -34,7 +34,8 @@
     <span class="w3-xxlarge w3-hide-large w3-hide-medium" style="background-color: white">Elisha Tigah</span><br>
     <span class="w3-xxlarge w3-hide-large w3-hide-medium" style="background-color: white">full stack web developer</span><br>
     
-    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more</a></p>
+    <!-- <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Learn more</a></p> -->
+    <a  class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" href="Elisha_Tigah_Resume_2019.pdf" download>My Resume</a>
   </div> 
 </header>
 
@@ -69,128 +70,140 @@
   </div>
 </div>
 
-<!-- Portfolio Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="portfolio">
-  <h3 class="w3-center">My Portfolio</h3>
-  <p class="w3-center w3-large">Recent Projects</p>
 
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-
-        <h3>The Movie App</h3>
-        <a href="http://movie-app-elisha.herokuapp.com/" target="_blank">
-        <img class="responsive" src="/assets/movie.png" alt="Smiley face"  style="width:100%">              
+<!-- Container (Portfolio Section) -->
+<div id="portfolio" class="container-fluid text-center  w3-light-grey ">
+  <h2>My Portfolio</h2>
+  <h4>Recent Projects</h4>
+  <br>
+  
+  <div class="row text-center slideanim">
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="https://churchmms.com/" target="_blank">
+          <img src="/assets/church.png" alt="Smiley face" width="400" height="300">
         </a>
-        <div class="w3-container">
-          <p>This is a Movie rating and review application with searching capabilities.</p>
-          <p>The technology stack includes:
-            <strong>Ruby on Rails, SQlite3, PostgreSQL, ERB, CSS, JQuery, HTML5 and Bootstrap </strong></p>
-        </div>
-        <br>
-          <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ektigah/movie-app-elisha"> Github repo </a></button></p>
         
+        <p><strong>The ChurchMMS App</strong></p>
+        <p align="left">The ChurchMMS app allows Church administrators to send announcements via text messages to their church members.</p>
+          <p align="left">The technology stack includes:
+            <strong>Ruby on Rails, TwilioAPI, StripeAPI, CSS, JQuery, HTML5 and Bootstrap </strong></p>
+        
+        <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ptcww8/church_announcements"> Github repo </a></button></p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
 
-        <h3>The Blog App</h3>
+    <div class="col-sm-4">
+      <div class="thumbnail">
         <a href="http://movie-app-elisha.herokuapp.com/" target="_blank">
-        <img class="responsive" src="/assets/blog.png" alt="Smiley face"  style="width:100%">              
+          <img src="/assets/movie.png" alt="Smiley face" width="400" height="300">
         </a>
-        <div class="w3-container">
-          <p>This is a blog app which allows user to view articles or create new articles by signing up.</p>
-          <p>The technology stack includes:
-            <strong>Ruby on Rails, SQlite3, PostgreSQL, ERB, CSS, JQuery, HTML5 and Bootstrap </strong></p>
-        </div>
-        <br>
+        <p><strong>The Movie Review App</strong></p>
+        <p align="left">This is a Movie rating and review application with searching capabilities. Users can create an account and review a movie.</p>
+        
+          <p align="left">The technology stack includes:
+             <strong>Ruby on Rails, SQlite3, PostgreSQL, ERB, CSS, JQuery, HTML5 and Bootstrap </strong></p>
+       
         <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ektigah/movie-app-elisha"> Github repo </a></button></p>
       </div>
     </div>
+    
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <a href="http://blog-app-elisha.herokuapp.com/" target="_blank">
+          <img src="/assets/blog.png" alt="Smiley face" width="400" height="300">
+        </a>
+        <p><strong>The Blog App</strong></p>
+        <p align="left">This is a blog app which allows user to view articles or create new articles by signing up.</p>
+       
+          <p align="left">The technology stack includes:
+             <strong>Ruby on Rails, SQlite3, PostgreSQL, ERB, CSS, JQuery, HTML5 and Bootstrap </strong></p>
+       <br>
+        <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ektigah/blog-app"> Github repo </a></button></p>
+      </div>
+    </div>
+    
 
-
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <h3>The Notebook App</h3>
+     </div>
+    
+    
+    
+    <div class="row text-center slideanim">
+    
+    <div class="col-sm-4">
+      <div class="thumbnail">
         <a href="http://notebook-app-elisha.herokuapp.com/" target="_blank">
-        <img class="responsive" src="<%=asset_path('notebook.png') %>" alt="Smiley face"  style="width:100%">              
+          <img src="<%=asset_path('notebook.png') %>" alt="Smiley face" width="400" height="300">
         </a>
-        <div class="w3-container">
-          <p>The notebook app allows users to view and create notes by signing up.</p>
-          <p>The technology stack includes:
-            <strong>Ruby on Rails, SQlite3, PostgreSQL, CSS, JQuery, HTML5, HAML and Bootstrap </strong></p>
-        </div>
+        <p><strong>The Notebook App</strong></p>
+        <p align="left">The notebook app allows users to view and create notes by signing up.</p>
         <br>
-        <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ektigah/movie-app-elisha"> Github repo </a></button></p>
+          <p align="left">The technology stack includes:
+             <strong>Ruby on Rails, SQlite3, PostgreSQL, CSS, JQuery, HTML5, HAML and Bootstrap </strong></p>
+       
+        <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ektigah/notebook-app-elisha"> Github repo </a></button></p>
       </div>
     </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <h3>The Appointment App</h3>
+      
+      
+      
+      <div class="col-sm-4">
+      <div class="thumbnail">
         <a href="http://appointments-app-elisha.herokuapp.com/" target="_blank">
-          <img class="responsive" src="/assets/appointment.png" alt="Smiley face"  style="width:100%">              
+          <img src="/assets/appointment.png" alt="Smiley face" width="400" height="300">
         </a>
-        <div class="w3-container">
-          <p>The appointment app is designed to keep track of appointments with multiple clients in multiple locations.</p>
-          <p>The technology stack includes:
-            <strong>Ruby on Rails, ERB, CSS, JQuery, HTML5 and Bootstrap </strong></p>
-        </div>
+        <p><strong>The Appointments App</strong></p>
+        <p align="left">The appointment app is designed to keep track of appointments with multiple clients in multiple locations.</p>
         <br>
+          <p align="left">The technology stack includes:
+             <strong>Ruby on Rails, ERB, CSS, JQuery, HTML5 and Bootstrap </strong></p>
+       
         <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ektigah/rails-appointment"> Github repo </a></button></p>
       </div>
     </div>
     
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <h3>The ChurchMMS App</h3>
-        <a href="https://churchmms.com/" target="_blank">
-          <img class="responsive" src="/assets/church.png" alt="Smiley face"  style="width:100%">              
-        </a>
-        <div class="w3-container">
-          <p>The ChurchMMS app allows Church administrators to send announcements via text messages to their church members.</p>
-          <p>The technology stack includes:
-            <strong>Ruby on Rails, TwilioAPI, StripeAPI, CSS, JQuery, HTML5 and Bootstrap </strong></p>
-        </div>
-        <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ptcww8/church_announcements"> Github repo </a></button></p>
-      </div>
-    </div>
-    
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <h3>The Todo API App</h3>
+    <div class="col-sm-4">
+      <div class="thumbnail">
         <a href="#" target="_blank">
-          <img class="responsive" src="/assets/todo.png" alt="Smiley face"  style="width:100%">              
+          <img src="/assets/todo.png" alt="Smiley face" width="400" height="300">
         </a>
-        <div class="w3-container">
-          <p>This is a Todo list API where users can manage their to-do lists and todo items.</p>
-          <p>The technology stack includes:
-            <strong>Ruby on Rails, JWT, Serializers, API Versioning and Pagination </strong></p>
-        </div>
-        <br> 
+        <p><strong>The Todo List API App</strong></p>
+        <p align="left">This is a Todo list API where users can manage their to-do lists and todo items.</p>
         <br>
+          <p align="left">The technology stack includes:
+            <strong>Ruby on Rails, JWT, Serializers, API Versioning and Pagination </strong></p>
+       <br>
         <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ektigah/todo-api"> Github repo </a></button></p>
       </div>
     </div>
-    
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card">
-        <h3>The Idea Board App</h3>
+      </div>
+
+    <div class="row text-center slideanim">  
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        
         <a href="#" target="_blank">
-          <img class="responsive" src="/assets/idea.png" alt="Smiley face"  style="width:100%">              
+          <img src="/assets/idea.png" alt="Smiley face" width="400" height="300">
         </a>
-        <div class="w3-container">
-          <p>The Idea Board app is a single page app which displays ideas in the form of square tiles. Users can add new ideas, edit and delete them. </p>
-          <p>The technology stack includes:
-            <strong>Ruby on Rails, CSS, and React-Rails </strong></p>
-        </div>
+        <p><strong>The Idea Board App</strong></p>
+        <p align="left">The Idea Board app is a single page app which displays ideas in the form of square tiles. Users can add new ideas, edit and delete them. </p>
         <br>
+          <p align="left">The technology stack includes:
+            <strong>Ruby on Rails, CSS, and React-Rails </strong></p>
+       
         <p><button class="w3-button w3-light-grey w3-block"><a href="https://github.com/ektigah/ideas_api"> Github repo </a></button></p>
       </div>
     </div>
-    
+    </div>
+
   </div>
-</div>
+
+
+
+
+
+
+
 
 
 
