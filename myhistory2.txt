@@ -1,0 +1,1000 @@
+  876  cat .ruby-version
+  877  ruby -v
+  878  rails -v
+  879  rails -version
+  880  vi Gemfile
+  881  rails g scaffold Church church_name:string phone_number:string address:text city:string zip:integer church_code:string
+  882  bundle install
+  883  gem install bundler
+  884  rails g scaffold Church church_name:string phone_number:string address:text city:string zip:integer church_code:string
+  885  bundle install
+  886  git reset --hard origin/fr_church
+  887  bundle install
+  888  ruby -v
+  889  bundle exec rails g scaffold Church church_name:string phone_number:string address:text city:string zip:integer church_code:string
+  890  bundle install
+  891  bundle exec rails g scaffold Church church_name:string phone_number:string address:text city:string zip:integer church_code:string
+  892  bundle exec rails db:migrate
+  893  git branch
+  894  git status
+  895  git add .
+  896  git commit -m "Created Church scaffold"
+  897  git push origin fr_church
+  898  bundle install
+  899  rails g devise:install
+  900  rails g devise:views
+  901  bundle exec rails g devise User
+  902  rake db:migrate
+  903  bundle install
+  904  bundle install --with development
+  905  bundle exec rails generate migration update_users
+  906  rails generate migration create_sessions
+  907  bundle exec rails db:migrate
+  908  bundle install
+  909  bundle exec rails generate controller users/omniauth
+  910  rake routes
+  911  cd ./workspace 
+  912  cd ./workspace 
+  913  cd ./workspace/rails-appointments 
+  914  bundle exec rails s
+  915  lsof -wni tcp:3000
+  916  KILL -9 5310
+  917  kill -9 5310
+  918  bundle exec rails s
+  919  cd ./workspace/church_announcements 
+  920  bundle install
+  921  bundle exec rails s
+  922  cd ./workspace/ideaboard-api 
+  923  bundle exec rails s
+  924  CD ..
+  925  Ccd ..
+  926  cd church_announcements
+  927  cd ..
+  928  cd church_announcements
+  929  bundle exec rails s
+  930  rails g migration add_confirmable_to_devise
+  931  bundle exec rails db:migrate
+  932  cd church_announcements/
+  933  bundle exec rails s
+  934  dotenv rails s
+  935  dotenv rails server
+  936  bundle exec rails s
+  937  bundle exec rake db:migrate
+  938  rake db:rollback STEP=1
+  939  bundle exec rake db:migrate
+  940  bundle exec rails s
+  941  bundle exec rake db:drop db:create db:migrate
+  942  bundle exec rails s
+  943  cd ./workspace 
+  944  cd ./workspace/Devise-Omniauth 
+  945  bundle exec bundle install
+  946  bundle install
+  947  gem install mysql2 -v '0.4.5' --source 'https://rubygems.org/'
+  948  apt-get install libmysqlclient-dev
+  949  sudo apt-get install libmysqlclient-dev
+  950  bundle install
+  951  bundle install --with development
+  952  dotenv rails server
+  953  bundle exec dotenv rails server
+  954  bundle exec rails s
+  955  bundle install --without development
+  956  bundle exec rails s
+  957  bundle install
+  958  bundle exec rails s
+  959  bundle install
+  960  bundle exec rails s
+  961  cd ./workspace/Devise-Omniauth 
+  962  bundle install
+  963  bundle exec rails s
+  964  bundle install --with development
+  965  bundle exec rails s
+  966  bundle install
+  967  bundle exec rails s
+  968  bundle install
+  969  bundle exec rails s
+  970  rails db:create
+  971  bundle exec rails db:create
+  972  bundle install
+  973  bundle install --with development
+  974  bundle exec rails db:create
+  975  bundle exec rails db:migrate
+  976  bundle exec rails s
+  977  bundle install --with development
+  978  bundle exec rails s
+  979  bundle exec rails db:create
+  980  bundle exec rails db:reset
+  981  bundle exec rails s
+  982  bundle install -with development
+  983  bundle install --with development
+  984  bundle exec rails db:reset
+  985  bundle exec rails db:migrate
+  986  bundle exec rails s
+  987  cd ./workspace 
+  988  git clone https://github.com/nomanurrehman/Devise-Omniauth.git
+  989  cd church_announcements/
+  990  bundle exec rails s
+  991  cd ./workspace/church_announcements 
+  992  bundle exec rails s
+  993  rails c
+  994  bundle exec rails s
+  995  rails g migration add_lockable_to_devise
+  996  bundle exec rails db:migrate
+  997  bundle exec rails s
+  998  rake db:migrate:down VERSION=20190316133617
+  999  rake db:migrate:up VERSION=20190316133617
+ 1000  rake db:migrate:down VERSION=20190320171813
+ 1001  rake db:migrate:down VERSION=20190316133617
+ 1002  rake db:migrate:up VERSION=20190316133617
+ 1003  rake db:migrate:down VERSION=20190319212922
+ 1004  rake db:migrate:down VERSION=20190316133617
+ 1005  rake db:migrate:up VERSION=20190316133617
+ 1006  rake db:migrate
+ 1007  bundle exec rails db:migrate
+ 1008  bundle exec rails s
+ 1009  rake db:migrate:down VERSION=20190316144433
+ 1010  rake db:migrate:up VERSION=20190316144433
+ 1011  bundle exec rake db:migrate
+ 1012  bundle exec rails s
+ 1013  bundle exec rails s
+ 1014  bundle install
+ 1015  bundle exec rails s
+ 1016  cd ./workspace/church_announcements 
+ 1017  bundle exec rails s
+ 1018  bundle install
+ 1019  bundle exec rails s
+ 1020  bundle exec rails db:reset
+ 1021  bundle exec rails s
+ 1022  bundle install
+ 1023  bundle exec rails s
+ 1024  cd ./workspace/church_announcements 
+ 1025  bundle update
+ 1026  bundle install
+ 1027  bundle exec rails s
+ 1028  cd ./workspace/church-app 
+ 1029  bundle exec rails s
+ 1030  cd ./workspace/church_announcements 
+ 1031  bundle install
+ 1032  bundle exec rails s
+ 1033  bundle exec bundle install
+ 1034  bundle exec rails s
+ 1035  bundle exec bundle install --with development
+ 1036  bundle exec rails s
+ 1037  lsof -wni tcp:3000
+ 1038  bundle exec bundle install
+ 1039  bundle update
+ 1040  bundle exec rails s
+ 1041  git status
+ 1042  cd ..
+ 1043  git clone https://github.com/rails-camp/facebook-omniauth-demo.git
+ 1044  cd facebook-omniauth-demo/
+ 1045  bundle install
+ 1046  bundle exec rails db:create
+ 1047  bundle install
+ 1048  bundle exec rails db:create
+ 1049  bundle exec rails db:migrate
+ 1050  exit
+ 1051  cd ./workspace 
+ 1052  cd ./workspace 
+ 1053  cd church_announcements/
+ 1054  bundle exec rails s
+ 1055  cd ./workspace/church-app 
+ 1056  bundle exec rails s
+ 1057  cd ./workspace/church_announcements 
+ 1058  bundle exec rails s
+ 1059  bundle install --with development
+ 1060  bundle exec rails s
+ 1061  bundle exec rails s --binding=0.0.0.0
+ 1062  bundle exec rails s
+ 1063  bundle exec rails s --binding=0.0.0.0
+ 1064  cd ./workspace/church_announcements 
+ 1065  bundle exec rails s --binding=0.0.0.0
+ 1066  dotenv rails s --binding=0.0.0.0
+ 1067  bundle exec rails s --binding=0.0.0.0
+ 1068  cd ./workspace 
+ 1069  cd church_announcements/
+ 1070  git status
+ 1071  bundle install --with development
+ 1072  git checkout master
+ 1073  cd ./workspace/rails-appointments 
+ 1074  bundle exec rails s
+ 1075  cd ./workspace 
+ 1076  cd church_announcements/
+ 1077  git status
+ 1078  git branch
+ 1079  git add ..
+ 1080  git branch
+ 1081  git status
+ 1082  git checkout master
+ 1083  git status
+ 1084  git add ..
+ 1085  git branch fr_devise
+ 1086  git branch
+ 1087  git checkout fr_devise
+ 1088  git status
+ 1089  git add ..
+ 1090  git add .
+ 1091  git status
+ 1092  git commit -m "Added Social login"
+ 1093  git checkout master
+ 1094  git checkout fr_devise
+ 1095  git pull
+ 1096  git merge master
+ 1097  git checkout master
+ 1098  git pull
+ 1099  git checkout fr_devise
+ 1100  git pull
+ 1101  git merge master
+ 1102  bundle install
+ 1103  git checkout HEAD -- Gemfile.lock
+ 1104  bundle install
+ 1105  bundle config gems.rapidrailsthemes.com username:password
+ 1106  bundle install
+ 1107  bundle config gems.rapidrailsthemes.com prince.titus.codjoe%40gmail.com:1a190fb8345d8e26fe67
+ 1108  bundle install
+ 1109  bundle exec rails s
+ 1110  bundle install
+ 1111  bundle exec rails s
+ 1112  bundle exec rails s --binding=0.0.0.0
+ 1113  bundle exec rails:db migrate
+ 1114  bundle exec rails db:migrate
+ 1115  bin/rails db:migrate RAILS_ENV=development
+ 1116  bundle update
+ 1117  bin/rails db:migrate RAILS_ENV=development
+ 1118  bundle exec rails db:migrate
+ 1119  bundle exec rails db:reset
+ 1120  bundle exec rails db:migrate
+ 1121  bundle exec rails s --binding=0.0.0.0
+ 1122  cd ./workspace/church_announcements 
+ 1123  git branch
+ 1124  git status
+ 1125  rails g migration add_user_id_to_churches user_id:integer
+ 1126  bundle exec rails db:migrate
+ 1127  bundle exec rails db:reset
+ 1128  cd church_announcements/
+ 1129  bundle exec rails s
+ 1130  bundle exec rails s --binding=0.0.0.0
+ 1131  cd ./workspace 
+ 1132  cd church_announcements/
+ 1133  rake routes
+ 1134  rails c
+ 1135  git status
+ 1136  git add .
+ 1137  git status
+ 1138  git commit -m "Edited Social Login"
+ 1139  git branch
+ 1140  git push origin fr_devise
+ 1141  cd ./workspace 
+ 1142  cd church_announcements/
+ 1143  git branch
+ 1144  git diff --name-only --diff-filter=U
+ 1145  git add .
+ 1146  git status
+ 1147  bundle exec rails s --binding=0.0.0.0
+ 1148  git status
+ 1149  git add .
+ 1150  git status
+ 1151  git commit -m "Added Social login"
+ 1152  git push -u origin fr_devise
+ 1153  bundle exec rails s --binding=0.0.0.0
+ 1154  rake routes
+ 1155  bundle exec rails s --binding=0.0.0.0
+ 1156  rails generate rrt:landing_pages Pages ACTIONS_NAME --variant=4
+ 1157  bundle exec rails s --binding=0.0.0.0
+ 1158  cd ./workspace 
+ 1159  cd ./workspace 
+ 1160  cd ./workspace 
+ 1161  cd ./workspace 
+ 1162  cd church_announcements/
+ 1163  git branch
+ 1164  git checkout master
+ 1165  bundle exec rails s --binding=0.0.0.0
+ 1166  cd ./workspace/church_announcements 
+ 1167  git status
+ 1168  git add .
+ 1169  git status
+ 1170  git commit -m "Added Pages controller"
+ 1171  git checkout master
+ 1172  bundle exec rails s --binding=0.0.0.0
+ 1173  git pull
+ 1174  git checkout fr_devise
+ 1175  git pull
+ 1176  git merge master
+ 1177  git diff --name-only --diff-filter=U
+ 1178  rake routes
+ 1179  git status
+ 1180  git branch
+ 1181  git add .
+ 1182  git commit -m "Revised Pages controller"
+ 1183  git push origin fr_devise
+ 1184  cd ./workspace 
+ 1185  cd ./workspace 
+ 1186  cd ./workspace/church_announcements 
+ 1187  bundle exec rails s --binding=0.0.0.0
+ 1188  rails g rrt:content_blocks
+ 1189  bundle exec rails s --binding=0.0.0.0
+ 1190  cd ./workspace 
+ 1191  cd ./workspace 
+ 1192  cd church_announcements/
+ 1193  bundle exec rails s --binding=0.0.0.0
+ 1194  cd ./workspace 
+ 1195  cd ./workspace 
+ 1196  cd church_announcements/
+ 1197  bundle exec rails s --binding=0.0.0.0
+ 1198  cd ./workspace 
+ 1199  cd church_announcements/
+ 1200  bundle exec rails s --binding=0.0.0.0
+ 1201  lsof -wni tcp:3000
+ 1202  kill -9 13481
+ 1203  bundle exec rails s --binding=0.0.0.0
+ 1204  git branch
+ 1205  gi status
+ 1206  git status
+ 1207  git commit -m "Welcome Page modified"
+ 1208  bundle exec rails s --binding=0.0.0.0
+ 1209  cd ./workspace/church_announcements 
+ 1210  cd ./workspace 
+ 1211  cd ./workspace 
+ 1212  cd church_announcements/
+ 1213  bundle exec rails s --binding=0.0.0.0
+ 1214  rails g mailer model_mailer new_user_notification
+ 1215  bundle exec rails s --binding=0.0.0.0
+ 1216  cd ./workspace/church_announcements 
+ 1217  bundle exec rails s --binding=0.0.0.0
+ 1218  rails c
+ 1219  bundle exec rails s --binding=0.0.0.0
+ 1220  cd ./workspace 
+ 1221  cd church_announcements/
+ 1222  bundle exec rails s --binding=0.0.0.0
+ 1223  git branch
+ 1224  git status
+ 1225  git add .
+ 1226  git commit -m "Added mailer functions"
+ 1227  git push origin fr_devise
+ 1228  git checkout master
+ 1229  git pull
+ 1230  git checkout fr_devise
+ 1231  git pull
+ 1232  git branch
+ 1233  git merge master
+ 1234  bundle exec rails s --binding=0.0.0.0
+ 1235  bundle exec rails s --binding=0.0.0.0
+ 1236  bundle install
+ 1237  bundle exec rails s --binding=0.0.0.0
+ 1238  bundle exec rals db:migrate
+ 1239  bundle exec rails db:migrate
+ 1240  bundle install --binstubs
+ 1241  bundle exec rails db:migrate
+ 1242  rails app:update:bin
+ 1243  bundle exec rails db:migrate
+ 1244  bundle exec rails s --binding=0.0.0.0
+ 1245  rails app:update:bin
+ 1246  git status
+ 1247  git add .
+ 1248  git commiet -m "Merged with master"
+ 1249  git commit -m "Merged with master"
+ 1250  git push origin fr_devise
+ 1251  bundle install
+ 1252  rails g controller charges
+ 1253  rails app:update:bin
+ 1254  bundle exec rake db:migrate
+ 1255  bundle exec rails s --binding=0.0.0.0
+ 1256  .env
+ 1257  env
+ 1258  bundle exec rails s --binding=0.0.0.0
+ 1259  env
+ 1260  bundle exec rails s --binding=0.0.0.0
+ 1261  rails g controller Billing church_name:string amount:string date_billed:string
+ 1262  bundle exec rails db:migrate
+ 1263  rails destroy controller Billing -p
+ 1264  rails destroy controller Billing
+ 1265  rails destroy controller Billing -p
+ 1266  rails destroy controller Billing
+ 1267  rails g scaffold Billing
+ 1268  rails d scaffold Billing
+ 1269  rails g controller Billing
+ 1270  bundle exec rails s --binding=0.0.0.0
+ 1271  cd ./workspace 
+ 1272  cd church_announcements/
+ 1273  bundle exec rails s --binding=0.0.0.0
+ 1274  cd ./workspace/church-app 
+ 1275  bundle exec rails s
+ 1276  cd ./workspace/EugeneAlanBen 
+ 1277  bundle update
+ 1278  gem update bundler
+ 1279  bundle update
+ 1280  bundle exec bundle update
+ 1281  bundle update
+ 1282  rails db:migrate
+ 1283  bundle update
+ 1284  bundle install
+ 1285  bundle update
+ 1286  `gem install ovirt-engine-sdk -v '4.3.0' --source 'https://rubygems.org/'
+ 1287  exit
+ 1288  bundle update
+ 1289  cd ./workspace 
+ 1290  git clone https://github.com/bencochrane1/EugeneAlanBen.git
+ 1291  cd ./workspace/church_announcements 
+ 1292  bundle exec rails s --binding=0.0.0.0
+ 1293  git checkout master
+ 1294  bundle exec rails s --binding=0.0.0.0
+ 1295  cd ./workspace 
+ 1296  cd ./workspace 
+ 1297  cd church_announcements/
+ 1298  bundle exec rails s --binding=0.0.0.0
+ 1299  cd ./workspace 
+ 1300  cd church_announcements/
+ 1301  bundle exec rails s --binding=0.0.0.0
+ 1302  cd church_announcements
+ 1303  git status
+ 1304  git add .
+ 1305  git commit -m "Added Charges controller"
+ 1306  git push origin fr_devise
+ 1307  rake routes
+ 1308  bundle exec rails s --binding=0.0.0.0
+ 1309  cd ./workspace/church_announcements 
+ 1310  rake routes
+ 1311  rails g migration AddDataToUser subscribed:boolean stripe_subscription_id:string stripe_id: string
+ 1312  bundle exec rails db:migrate
+ 1313  cd ./workspace 
+ 1314  cd ./workspace 
+ 1315  cd church_announcements/
+ 1316  bundle exec rails s --binding=0.0.0.0
+ 1317  cd ./workspace/church_announcements 
+ 1318  bundle install
+ 1319  rails c
+ 1320  bundle exec rails c
+ 1321  rails app:update:bin
+ 1322  bundle exec rails c
+ 1323  rails app:update:bin
+ 1324  bundle install
+ 1325  bundle update
+ 1326  bundle exec rails c
+ 1327  bundle install
+ 1328  bundle exec rails c
+ 1329  bundle install
+ 1330  bundle exec rails c
+ 1331  bundle exec rails db:migrate
+ 1332  bundle exec rails s --binding=0.0.0.0
+ 1333  cd ./workspace 
+ 1334  cd church_announcements/
+ 1335  rails g model Charge user_id:integer amount:integer date_paid:date customer:string
+ 1336  bundle exec rails db:migrate
+ 1337  rake db:rollback STEP=1
+ 1338  rails g model Charge user_id:integer amount:integer date_paid:date customer_name:string stripe_id:string
+ 1339  bundle exec rails db:migrate
+ 1340  rails c
+ 1341  cd ./workspace/book_library 
+ 1342  bundle install
+ 1343  bundle update
+ 1344  bundle exec bundle install
+ 1345  gem install bundler
+ 1346  bundle exec gem install bunudler
+ 1347  cd ./workspace/church_announcements 
+ 1348  cd ./workspace/church_announcements 
+ 1349  bundle exec rails s --binding=0.0.0.0
+ 1350  cd ..
+ 1351  git clone https://github.com/justalever/book_library.git
+ 1352  cd ./workspace/church_announcements 
+ 1353  bundle exec rails s --binding=0.0.0.0
+ 1354  rake routes
+ 1355  bundle exec rails s --binding=0.0.0.0
+ 1356  git status
+ 1357  git checkout -b fr_billing
+ 1358  git status
+ 1359  git add --all
+ 1360  git status
+ 1361  git commit -m "Added Stripe Billing"
+ 1362  git branch
+ 1363  git checkout master
+ 1364  git pull
+ 1365  git checkout fr_billing
+ 1366  git pull
+ 1367  git merge master
+ 1368  bundle install
+ 1369  bundle exec rails db:migrate
+ 1370  bundle exec rails s --binding=0.0.0.0
+ 1371  git status
+ 1372  git add .
+ 1373  git branch
+ 1374  git commit -m "Merged with master"
+ 1375  git push origin fr_billing
+ 1376  cd ./workspace 
+ 1377  cd ./workspace/church_announcements 
+ 1378  bundle exec rails s --binding=0.0.0.0
+ 1379  rake routes
+ 1380  bundle exec rails s --binding=0.0.0.0
+ 1381  cd ./workspace 
+ 1382  cd ./workspace 
+ 1383  cd ./workspace 
+ 1384  cd ./workspace/church_announcements 
+ 1385  bundle exec rails s --binding=0.0.0.0
+ 1386  cd ./workspace 
+ 1387  cd church_announcements/
+ 1388  bundle exec rails s --binding=0.0.0.0
+ 1389  rails c
+ 1390  bundle exec rails s --binding=0.0.0.0
+ 1391  rails c
+ 1392  bundle exec rails s --binding=0.0.0.0
+ 1393  rails g migration add_amount_to_add_and_recharge_to_to_church amount_to_add:integer recharge_to:integer
+ 1394  bundle exec rails db:migrate
+ 1395  bundle exec rails s --binding=0.0.0.0
+ 1396  cd ./workspace 
+ 1397  cd church_announcements/
+ 1398  bundle exec rails s --binding=0.0.0.0
+ 1399  rake routes
+ 1400  bundle exec rails s --binding=0.0.0.0
+ 1401  rails destroy controller billing
+ 1402  exit
+ 1403  cd ./workspace/church_announcements 
+ 1404  rails c
+ 1405  cd ./workspace/church_announcements 
+ 1406  git status
+ 1407  git add .
+ 1408  git status
+ 1409  git checkout master
+ 1410  bundle exec rails s --binding=0.0.0.0
+ 1411  git status
+ 1412  git add .
+ 1413  git commit -m "Modified Billing Views"
+ 1414  git checkout master
+ 1415  git pull
+ 1416  git checkout fr_billing
+ 1417  git pull
+ 1418  git branch
+ 1419  git merge master
+ 1420  bundle exec rails s --binding=0.0.0.0
+ 1421  git status
+ 1422  git add .
+ 1423  $ git commit -m "Merged with Master"
+ 1424  git commit -m "Merged with Master"
+ 1425  git push origin fr_billing
+ 1426  git pull
+ 1427  git push origin fr_billing
+ 1428  cd ./workspace/church_announcements 
+ 1429  git status
+ 1430  git pull
+ 1431  checkout master
+ 1432  git checkout master
+ 1433  git pull
+ 1434  git log
+ 1435  cd ./workspace/church_announcements 
+ 1436  git reflog
+ 1437  git diff 3d90a77
+ 1438  git reflog
+ 1439  git branch
+ 1440  git checkout fr_billing
+ 1441  git status
+ 1442  git push -m "Before Merge with Master"
+ 1443  git commit -m "Before Merge with Master"
+ 1444  git push origin fr_billing
+ 1445  gitk --all
+ 1446  git --all
+ 1447  git pull origin fr_billing
+ 1448  bundle exec rails s --binding=0.0.0.0
+ 1449  git status
+ 1450  git add .
+ 1451  git push origin fr_billing
+ 1452  git commit -m "Pulled remote and merged with local fr_billing"
+ 1453  git push origin fr_billing
+ 1454  git status
+ 1455  git branch
+ 1456  git pull
+ 1457  git checkout master
+ 1458  git pull
+ 1459  git merge master
+ 1460  git status
+ 1461  git push origin fr_billing
+ 1462  git branch
+ 1463  git checkout fr_billing
+ 1464  git status
+ 1465  bundle exec rails s --binding=0.0.0.0
+ 1466  rails c
+ 1467  cd ./workspace/church_announcements 
+ 1468  bundle exec rails s --binding=0.0.0.0
+ 1469  cd ./workspace/church_announcements 
+ 1470  bundle exec rails s --binding=0.0.0.0
+ 1471  git branch
+ 1472  git checkout master
+ 1473  git pull
+ 1474  git checkout fr_billing
+ 1475  git reset --hard origin/fr_billing
+ 1476  git revert HEAD
+ 1477  git revert -m 1 76188b69618ed03be2dec07162780cc4524eb902
+ 1478  git reset --hard origin/fr_billing
+ 1479  git show HEAD~4
+ 1480  git show HEAD~2
+ 1481  git push -f HEAD~2:master
+ 1482  git show master~2
+ 1483  git show master~3
+ 1484  git show master~1
+ 1485  git show fr_billing
+ 1486  git show fr_billing~2
+ 1487  git revert fr_billing~2..fr_billing
+ 1488  git revert --no-commit fr_billing~2..fr_billing
+ 1489  git reset --hard origin/fr_billing
+ 1490  git revert --no-commit fr_billing~2..fr_billing
+ 1491  git status
+ 1492  bundle exec rails s --binding=0.0.0.0
+ 1493  git branch
+ 1494  git merge master
+ 1495  git status
+ 1496  git add .
+ 1497  git commit -m "Final merge for master"
+ 1498  git push origin fr_billing
+ 1499  bundle exec rails s --binding=0.0.0.0
+ 1500  rails c
+ 1501  git status
+ 1502  git branch
+ 1503  git add .
+ 1504  git log
+ 1505  git status
+ 1506  git commit -m "Making google and facebook work"
+ 1507  git push origin fr_billing
+ 1508  bundle exec rails db:migrate
+ 1509  rake routes
+ 1510  cd ./workspace/church_announcements 
+ 1511  cd ./workspace 
+ 1512  cd ./workspace 
+ 1513  cd church_announcements/
+ 1514  bundle exec rails s --binding=0.0.0.0
+ 1515  cd ./workspace 
+ 1516  cd ./workspace 
+ 1517  cd church_announcements
+ 1518  bundle exec rails s --binding=0.0.0.0
+ 1519  cd ./workspace 
+ 1520  cd church_announcements/
+ 1521  rails g migration add_stripe_id_to_receipts stripe_id:string
+ 1522  bundle exec rails db:migrate
+ 1523  rails g migration add_user_id_to_receipts user_id:integer
+ 1524  bundle exec rails db:migrate
+ 1525  cd ./workspace 
+ 1526  rails new blog
+ 1527  cd ./workspace 
+ 1528  cd church_announcements/
+ 1529  bundle exec rails s --binding=0.0.0.0
+ 1530  cd ./workspace/blog 
+ 1531  bundle exec rails s --binding=0.0.0.0
+ 1532  cd ./workspace/blog 
+ 1533  cd ./workspace 
+ 1534  cd ./workspace/church_announcements 
+ 1535  bundle exec rails s --binding=0.0.0.0
+ 1536  cd ./workspace/church_announcements 
+ 1537  bundle exec rails s --binding=0.0.0.0
+ 1538  cd ./workspace/church_announcements 
+ 1539  rake routes
+ 1540  cd ./workspace/church_announcements 
+ 1541  bundle exec rails s --binding=0.0.0.0
+ 1542  cd ./workspace 
+ 1543  cd ./workspace 
+ 1544  cd ./workspace/myapi 
+ 1545  bundle exec rails s --binding=0.0.0.0
+ 1546  cd ./workspace/myapi 
+ 1547  bundle exec rails s --binding=0.0.0.0
+ 1548  curl -H "Content-Type: application/json" -X POST -d'{"title":"blog5","content":"qfc university city","slug":"blog5"}' https://rails-ektigah465832.codeanyapp.com/api/v1/articles
+ 1549  bundle exec rails s --binding=0.0.0.0
+ 1550  cd ./workspace 
+ 1551  rails new html5
+ 1552  cd html5/
+ 1553  bundle exec rails s --binding=0.0.0.0
+ 1554  bundle exec rails s
+ 1555  bundle exec rails s --binding=0.0.0.0
+ 1556  cd ./workspace 
+ 1557  cd html5/
+ 1558  bundle exec rails s --binding=0.0.0.0
+ 1559  cd ./workspace/church_announcements 
+ 1560  cd ./workspace/church_announcements 
+ 1561  bundle exec rails s --binding=0.0.0.0
+ 1562  cd ./workspace/church_announcements 
+ 1563  bundle exec rails s --binding=0.0.0.0
+ 1564  cd ./workspace 
+ 1565  cd ./workspace 
+ 1566  cd ektigah/
+ 1567  bundle exec rails s --binding=0.0.0.0
+ 1568  cd ./workspace 
+ 1569  cd ektigah/
+ 1570  bundle exec rails s --binding=0.0.0.0
+ 1571  bundle install
+ 1572  bundle exec rails s --binding=0.0.0.0
+ 1573  git status
+ 1574  git add .
+ 1575  git commit -m "initial commit"
+ 1576  git push origin master
+ 1577  git push heroku master
+ 1578  git add .
+ 1579  git commit -m "latest commit"
+ 1580  git push origin master
+ 1581  git push heroku master
+ 1582  cd ./workspace 
+ 1583  cd html5/
+ 1584  bundle exec rails s --binding=0.0.0.0
+ 1585  cd ./workspace 
+ 1586  cd ./workspace 
+ 1587  cd ./workspace/ideaboard-api 
+ 1588  bundle exec rails s --binding=0.0.0.0
+ 1589  cd ./workspace/todos_api 
+ 1590  bundle exec rails s --binding=0.0.0.0
+ 1591  cd ./workspace/todos_api 
+ 1592  https://rails-ektigah465832.codeanyapp.com/todos
+ 1593  http :3000/todos
+ 1594  http://rails-ektigah465832.codeanyapp.com/todos
+ 1595  http POST :3000/todos title=Mozart created_by=1
+ 1596  cd ./workspace/todos_api 
+ 1597  bundle exec rails s --binding=0.0.0.0
+ 1598  cd ./workspace/ideaboard-api 
+ 1599  bundle exec rails s --binding=0.0.0.0
+ 1600  cd..
+ 1601  cd ..
+ 1602  cd todos_api/
+ 1603  history
+ 1604  rake routes
+ 1605  history > myhistory.txt
+ 1606  ls
+ 1607  history > myhistory.txt
+ 1608  http https://rails-ektigah465832.codeanyapp.com/todos Authorization:'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE1NTE2MDQ2OTN9.PKIAmRxxNjDv-pH4QKmp18k0gI8kjhSv_z13cYum_7Q'
+ 1609  http https://rails-ektigah465832.codeanyapp.com/auth/login email=foo@bar.com password=foobar
+ 1610  rails c
+ 1611  http https://rails-ektigah465832.codeanyapp.com/auth/login email=ash@email.com password=foobar
+ 1612  http https://rails-ektigah465832.codeanyapp.com/todos Authorization:'eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE1NTg2NDU2NDV9.hrw07ryS1ExL3rwc-QXuMbEK9t6cKk3UYJP8YIHaHxc'
+ 1613  cd ./workspace 
+ 1614  cd ./workspace 
+ 1615  cd ./workspace/html5 
+ 1616  cd public/proj
+ 1617  unzip public.zip
+ 1618  bundle exec rails s --binding=0.0.0.0
+ 1619  cd ./workspace/html5 
+ 1620  bundle exec rails s --binding=0.0.0.0
+ 1621  cd ./workspace 
+ 1622  cd ./workspace 
+ 1623  cd ektigah/
+ 1624  bundle exec rails s --binding=0.0.0.0
+ 1625  cd ./workspace 
+ 1626  cd ./workspace/ideaboard-api 
+ 1627  bundle exec rails s --binding=0.0.0.0
+ 1628  cd ./workspace 
+ 1629  cd ektigah/
+ 1630  bundle exec rails s --binding=0.0.0.0
+ 1631  cd ..
+ 1632  cd ideaboard-api/
+ 1633  bundle exec rails s --binding=0.0.0.0
+ 1634  cd ..
+ 1635  cd ektigah/
+ 1636  bundle exec rails s --binding=0.0.0.0
+ 1637  cd ./workspace/ideaboard-api 
+ 1638  git init
+ 1639  git status
+ 1640  git log
+ 1641  git add .
+ 1642  git status
+ 1643  git commit -m "final commit"
+ 1644  git push origin master
+ 1645  cd ./workspace 
+ 1646  cd ./workspace 
+ 1647  cd ./workspace/projects/public 
+ 1648  ls
+ 1649  man unzip
+ 1650  unzip public.zip
+ 1651  bundle exec rails s --binding=0.0.0.0
+ 1652  cd ./workspace 
+ 1653  rails new projects
+ 1654  cd ektigah/
+ 1655  bundle exec rails s --binding=0.0.0.0
+ 1656  bundle install
+ 1657  bundle exec rails s --binding=0.0.0.0
+ 1658  git add .
+ 1659  git commit -m "added more projects"
+ 1660  git push origin master
+ 1661  git push heroku master
+ 1662  bundle exec rails s --binding=0.0.0.0
+ 1663  cd ./workspace 
+ 1664  cd ektigah/
+ 1665  bundle exec rails s --binding=0.0.0.0
+ 1666  cd ./workspace 
+ 1667  cd ./workspace/projects 
+ 1668  bundle exec rails s --binding=0.0.0.0
+ 1669  cd ..
+ 1670  cd html5/
+ 1671  bundle exec rails s --binding=0.0.0.0
+ 1672  cd ..
+ 1673  cd projects/
+ 1674  bundle exec rails s --binding=0.0.0.0
+ 1675  cd ..
+ 1676  cd html5/
+ 1677  bundle exec rails s --binding=0.0.0.0
+ 1678  cd ..
+ 1679  cd projects/
+ 1680  bundle exec rails s --binding=0.0.0.0
+ 1681  cd ..
+ 1682  cd html5/
+ 1683  bundle exec rails s --binding=0.0.0.0
+ 1684  cd ..
+ 1685  cd projects/
+ 1686  bundle exec rails s --binding=0.0.0.0
+ 1687  cd ./workspace 
+ 1688  cd ektigah/
+ 1689  bundle exec rails s --binding=0.0.0.0
+ 1690  cd ./workspace/ektigah 
+ 1691  bundle exec rails s --binding=0.0.0.0
+ 1692  cd ./workspace 
+ 1693  cd todos_api/
+ 1694  heroku version
+ 1695  heroku keys:add
+ 1696  got remote show
+ 1697  git remote show
+ 1698  heroku apps:create todos-api-ekt
+ 1699  git remote show
+ 1700  bundle install --without production
+ 1701  git status
+ 1702  git add .
+ 1703  git commit -m 'updates for heroku deployment'
+ 1704  git push origin master
+ 1705  git push heroku master
+ 1706  heroku run rails db:migrate
+ 1707  heroku addons:create heroku-postgresql
+ 1708  heroku run rails db:migrate
+ 1709  bundle exec rails s --binding=0.0.0.0
+ 1710  git log
+ 1711  heroku logs
+ 1712  heroku apps:destroy
+ 1713  exit
+ 1714  cd ./workspace/ideaboard-api 
+ 1715  git status
+ 1716  heroku
+ 1717  heroku version
+ 1718  heroku remote show
+ 1719  heroku keys:add
+ 1720  heroku create idea-board-ekt
+ 1721  bundle install --without production
+ 1722  git status
+ 1723  git add .
+ 1724  git commit -m 'updates for heroku deployment'
+ 1725  git push origin master
+ 1726  git push heroku master
+ 1727  bundle exec rails s --binding=0.0.0.0
+ 1728  git add .
+ 1729  git commit -m 'updates for heroku deployment2'
+ 1730  git push origin master
+ 1731  git push heroku master
+ 1732  heroku addons:create heroku-postgresql
+ 1733  heroku run rails db:migrate
+ 1734  cd ./workspace 
+ 1735  cd ./workspace 
+ 1736  cd ./workspace 
+ 1737  cd projects/
+ 1738  bundle exec rails s --binding=0.0.0.0
+ 1739  cd ..
+ 1740  cd html5/
+ 1741  bundle exec rails s --binding=0.0.0.0
+ 1742  cd ..
+ 1743  cd projects/
+ 1744  bundle exec rails s --binding=0.0.0.0
+ 1745  cd ./workspace 
+ 1746  cd ./workspace/ektigah 
+ 1747  bundle exec rails s --binding=0.0.0.0
+ 1748  git status
+ 1749  git add .
+ 1750  git commit -m 'updates for heroku deployment3'
+ 1751  git push origin master
+ 1752  git push heroku master
+ 1753  cd ./workspace 
+ 1754  bundle install
+ 1755  cd movie-app-elisha/
+ 1756  bundle install
+ 1757  gem install bundler
+ 1758  bundle install
+ 1759  gem install bundler
+ 1760  bundle update
+ 1761  gem i bundler -v 1.17.3
+ 1762  bundle update
+ 1763  ruby -v
+ 1764  bundle update
+ 1765  bundle exec rails s --binding=0.0.0.0
+ 1766  bundle exec rails db:migrate
+ 1767  bundle exec rails s --binding=0.0.0.0
+ 1768  git status
+ 1769  git add -A
+ 1770  git status
+ 1771  git commit -m "updated storage to amazon"
+ 1772  git push origin master
+ 1773  heroku git:remote -a movie-app-elisha
+ 1774  git push heroku master
+ 1775  cd ..
+ 1776  mkdir her
+ 1777  cd her
+ 1778  git clone https://git.heroku.com/movie-app-elisha.git
+ 1779  cd movie-app-elisha/
+ 1780  cd ..
+ 1781  cd movie-app-elisha/
+ 1782  git status
+ 1783  git add -A .
+ 1784  git commit -m "updated storage to amazon2"
+ 1785  git push origin master
+ 1786  git push heroku master
+ 1787  cd ..
+ 1788  cd her/
+ 1789  cd movie-app-elisha/
+ 1790  git pull
+ 1791  cd ../..
+ 1792  git status
+ 1793  cd mo
+ 1794  cd movie-app-elisha/
+ 1795  git status
+ 1796  vo config/storage.yml 
+ 1797  vi config/storage.yml 
+ 1798  vi config/environments/production.rb 
+ 1799  git status
+ 1800  git add -A .
+ 1801  git commit -m "updated storage to amazon3"
+ 1802  git push origin master
+ 1803  git push heroku master
+ 1804  git push heroku master
+ 1805  vi config/storage.yml 
+ 1806  git add -A .
+ 1807  git commit -m "updated storage to amazon4"
+ 1808  git push origin master
+ 1809  bundle exec rails s --binding=0.0.0.0
+ 1810  heroku logs
+ 1811  heroku logs --tail
+ 1812  heroku restart
+ 1813  heroku logs --tail
+ 1814  heroku run rails console
+ 1815  heroku config:set AWS_ACCESS_KEY_ID=AKIATUTXVULMZKPGSTNV AWS_SECRET_ACCESS_KEY=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 AWS_BUCKET=rubyclass
+ 1816  vi Gemfile
+ 1817  vi config/storage.yml 
+ 1818  git status
+ 1819  git add -A .
+ 1820  git commit -m "updated storage to amazon5"
+ 1821  git push origin master
+ 1822  heroku run rails c
+ 1823  vi config/stor
+ 1824  vi config/storage.yml 
+ 1825  git add -A .
+ 1826  git commit -m "updated storage to amazon6"
+ 1827  git push origin master
+ 1828  heroku logs --tail
+ 1829  cd ./workspace 
+ 1830  git clone git@github.com:ektigah/movie-app-elisha.git
+ 1831  cd ./workspace 
+ 1832  df -H
+ 1833  cd ./workspace 
+ 1834  cd ektigah/
+ 1835  bundle exec rails s --binding=0.0.0.0
+ 1836  bundle install
+ 1837  bundle exec rails s --binding=0.0.0.0
+ 1838  bundle install
+ 1839  bundle exec rails s --binding=0.0.0.0
+ 1840  bundle install
+ 1841  bundle exec rails s --binding=0.0.0.0
+ 1842  cd ..
+ 1843  cd movie-app-elisha/
+ 1844  cd ..
+ 1845  cd movie-app-elisha/
+ 1846  bundle exec rails s --binding=0.0.0.0
+ 1847  bundle install
+ 1848  bundle exec rails s --binding=0.0.0.0
+ 1849  cd ./workspace 
+ 1850  cd ./workspace 
+ 1851  cd ./workspace/movie-app-elisha 
+ 1852  bundle exec rails s --binding=0.0.0.0
+ 1853  cd ./workspace 
+ 1854  cd ./workspace 
+ 1855  cd ./workspace 
+ 1856  cd ./workspace/movie-app-elisha 
+ 1857  bundle exec rails s --binding=0.0.0.0
+ 1858  cd ./workspace/movie-app-elisha 
+ 1859  bundle exec rails s --binding=0.0.0.0
+ 1860  cd ./workspace/projects 
+ 1861  cd ./workspace 
+ 1862  cd ./workspace 
+ 1863  cd ./workspace 
+ 1864  cd ./workspace 
+ 1865  cd ./workspace 
+ 1866  mysql -uroot -p
+ 1867  cd ./workspace 
+ 1868  cd ./workspace 
+ 1869  cd movie-app-elisha/
+ 1870  cd ..
+ 1871  cd ektigah/
+ 1872  bundle exec rails s --binding=0.0.0.0
+ 1873  history | grep curl
+ 1874  history | grep bind
+ 1875  history >> myhistory2.txt
